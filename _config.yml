@@ -1,0 +1,56 @@
+# Site settings
+title: University of Maryland
+course_name: Algorithms, Data Structures and Inference for High-Throughput Genomics 
+course_description: "This course will focus on recent algorithmic, data structural, and statistical advances in methods for analyzing high-throughput sequencing data. Topics will include, but are not limited to : data structures for indexing genomes, collections of genomes, and collections of experimental data, succinct data structures, kmerology, algorithms for short and long read DNA-seq and RNA-seq alignment, probabilistic modeling of sequencing experiments and related inference techniques."
+course_semester: "Fall 2019"
+description: |
+    Instructor: Rob Patro
+
+message: Register to our <a href="http://www.piazza.com/umd/spring2020/cmsc423">Piazza page</a> to get announcements via e-mail.
+baseurl: "/CMSC423" # the subpath of your site, e.g. /blog/
+url: "https://rob-p.github.io/CMSC858D" # the base hostname & protocol for your site
+# githubdir: "rob-p/CMSC858D"
+
+# Author/user information
+#email: instructor-last-name@iust.ac.ir
+#twitter_username: username 
+#github_username:  username
+#authorurl: "http://author-url.com/page"
+address: |
+    Department of Computer Science
+    University of Maryland
+    College Park, MD
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
+
+
+
+plugins:
+    - jekyll-jalali

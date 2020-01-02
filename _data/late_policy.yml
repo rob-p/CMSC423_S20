@@ -1,0 +1,3 @@
+policies:
+  - There is a late penalty of 1% per-hour for the first 24-hours the assignment is late.
+  - After 24 hours, late assignments will not be accepted.
