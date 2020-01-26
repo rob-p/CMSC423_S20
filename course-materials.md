@@ -45,20 +45,61 @@ We will cover the basic required molecular Biology in the course. However if you
 - [Molecular Biology: Principles of Genome Function 2nd Edition](https://www.amazon.com/Molecular-Biology-Principles-Genome-Function/dp/0198705972/) (Craig,  Green, Greider, Storz, Wolberger, Cohen-Fix, 2014)
 - [Molecular Biology](http://www.amazon.com/Molecular-Biology-Second-Edition-David/dp/0123785944) (Clark and Pazdernik 2012)
 
-**Expectations**: Since this is a computational Biology course, you will be expected to become familiar with the relevant Biology — it is an important and inextricable part of the material, and the underlying Biology provides motivation for the computational problems we will tackle.
+**Expectations**: Since this is a computational biology course, you will be expected to become familiar with the relevant biology — it is an important and inextricable part of the material, and the underlying biology provides motivation for the computational problems we will tackle.  However, as an upper-level computer science course, our focus will be on the computational aspects of bioinformatics and genomics.  It is expected that you enter the class with a strong understanding of algorithms and basic data structures, and that you leave the class with a knowledge of how algorithm and data structure design can be fruitfully applied to biological data. 
 
 ## Course Objectives
 
-The main objective of this course will be to provide an in-depth understanding of some of the algorithms, data structures, and statistical methods that underlie _modern_ computational genomics.  This course is not intended as a broad introduction to computational biology — for that you should take (the excellent) CMSC 701.  Instead, this course is intended to provide a deep dive into some modern topics in genomics where algorithmic, data structural, and inferential innovations have moved the field forward and enabled solving, or even posing, new problems.  Our perspective will be a computational and algorithmic one, though we will take the time to understand the necessary biology and motivation for the problems we discuss. At the end of this course, you should have a good understanding of how new challenges in genomics drive algorithmic innovations and how algorithmic innovations enable new and improved biological analyses.
+The main objective of this course will be to provide an understanding of some of the algorithms, data structures, and statistical methods that underlie _modern_ computational genomics. This course is intended as a broad introduction to bioinformatics and computational biology.  However, this is a huge field, so we will not cover everything, and what we do cover will not all be at the same depth (e.g. we will spend more time discussing indexing than clustering).   Our perspective will be a computational and algorithmic one, though we will take the time to understand the necessary biology and motivation for the problems we discuss. At the end of this course, you should have a good understanding of how new challenges in genomics drive algorithmic innovations and how algorithmic innovations enable new and improved biological analyses.
 
 
 ## Course  Schedule
 
-The following is a planned schedule of the material we will cover in the course, as well as when we will cover it.  The mapping between content and dates below _is subject to change_ depending on how quickly we move.  The current schedule is quite optimistic, and I would like to cover all of this material.  However, it's much more important that the class understand the material we cover than that we get to all of the topics I'd like to discuss.  Thus, the time we spend on certain topics and the precise list of topics we cover is subject to change throughout the semester depending on our pace.
+The following is a planned schedule of the material we will cover in the course, as well as when we will cover it.  The mapping between content and dates below _is subject to change_ depending on how quickly we move.  The current schedule is  optimistic, and I would like to cover all of this material.  However, it's much more important that the class understand the material we cover than that we get to all of the topics I'd like to discuss.  Thus, the time we spend on certain topics and the precise list of topics we cover is subject to change throughout the semester depending on our pace.
 
 - Week of Jan 27.
     - Course introduction, logistics & goals
     - Basic Biology & Biotechnology (e.g. short and long-read sequencing)
+
+- Week of Feb 3.
+  - February 7 : Last day to drop without a `W`
+  
+- Week of Feb 10.
+
+- Week of Feb 17.
+
+- Week of Feb 24.
+  - Feb 25. : Midterm 1 (in class)
+  
+- Week of March 2.
+  - March 5 : Prof. Patro out of town
+
+- Week of March 9.
+
+- Week of March 16
+  - March 17 : **Spring Break, no classes**
+  - March 19 : **Spring Break, no classes**
+  
+- Week of March 23
+
+- Week of March 30
+
+- Week of April 6
+  - April 9 : Midterm 2 (in class)
+  - April 11 : Last day to drop with a `W`
+ 
+- Week of April 13
+
+- Week of April 20
+
+- Week of April 27
+
+- Week of May 4
+    - May 7 : Prof. Patro out of town (_tentative_, will verify)
+
+- Week of May 11 
+    - May 12 : Last day of class
+
+- May 14 : Final Exam (8:00-10:00am) **Note: University assigned time different than class time**
 
 ## Course Resources
 
@@ -73,11 +114,13 @@ Assignments will be posted and collected [via ELMS](https://umd.instructure.com/
 **Coursework and grading**: The coursework will consist of XXX, a midterm exam and a final exam. 
 The breakdown of weights for these different assignments will be as follows:
 
-- Homeworks — XXX%
-- Midterm - XXX%
-- Final Exam — XXX%
+- Homeworks (small programming assignments) — 15%
+- Projects - 25%
+- Midterm 1 - 15%
+- Midterm 2 - 15%
+- Final Exam — 30%
 
-**Late policy**: Assignments that are turned in late will be docked 1% for each hour they are late up to the first 24 hours.  After 24 hours, late assignments will not be accepted.
+**Late policy**: Assignments that are turned in late will be docked 1% for each hour they are late up to the first 48 hours.  After 48 hours, late assignments will not be accepted.
 
 **Regrade policy**: All requests to re-grade, re-check, or re-mark an assignment or exam question **must be made in writing**. When the assignment is re-graded, it will be re-checked in its entirety. This means that *it is possible to lose points on other problems if they were graded incorrectly or too leniently the first time*. Therefore, I urge you to thoroughly consider each regrade request you make.
 
@@ -85,23 +128,27 @@ The breakdown of weights for these different assignments will be as follows:
 
 **Final Grades**: The grade you receive in this class will reflect, as much as possible, the degree to which you have mastered the necessary material. How much somebody “needs” an ‘A’ will have no bearing on whether or not (s)he receives an ‘A’, other than how this need or desire is reflected in the work that (s)he does. I want everyone to do well in this course, and will make every reasonable effort to help you understand the material as well as possible. However, barring errors in the grading of assignments, the grades you receive at the end of the semester are final, and I will not alter them for personal or non-academic reasons, *so please do not ask me to*!
 
-**Academic integrity**: [From the University's Graduate Catalog Statement on Academic Integrity ](https://academiccatalog.umd.edu/graduate/policies/academic-record/#text):
+**Academic integrity**: 
 
-> On every examination, paper or other academic exercise not specifically exempted by the instructor, the student will write by hand and sign the following pledge:
-> I pledge on my honor that I have not given or received any unauthorized assistance on this examination.
+*TLDR* : Don't cheat.  Don't copy code from friends, classmates, or the internet for the short programming assignments or the projects. Don't provide code to classmates for any of the assignments or projects.  Don't cheat on the exams.  Be cool, and everything will be cool.
 
-> Failure to sign the pledge is not an honors offense, but neither is it a defense in case of violation of this Code. Students who do not sign the pledge will be given the opportunity to do so. Refusal to sign must be explained to the instructor. Signing or non-signing of the pledge will not be considered in grading or judicial procedures. Material submitted electronically should contain the pledge; submission implies signing the pledge.
+*Long form* : [From the University's Undergraduate Catalog Statement on Academic Integrity ](https://academiccatalog.umd.edu/undergraduate/registration-academic-requirements-regulations/academic-integrity-student-conduct-codes/):
 
-> On examinations, no assistance is authorized unless given by or expressly allowed by the instructor. On other assignments, the pledge means that the assignment has been done without academic dishonesty, as defined in the Code of Academic Integrity, available online.
+> The University of Maryland is an academic community. Its fundamental purpose is the pursuit of knowledge. Like all other communities, the University can function properly only if its members adhere to clearly established goals and values. Essential to the fundamental purpose of the University is the commitment to the principles of truth and academic honesty. Accordingly, the Code of Academic Integrity is designed to ensure that the principle of academic honesty is upheld. While all members of the University share this responsibility, the Code of Academic Integrity is designed so that special responsibility for upholding the principle of academic honesty lies with the students.
 
-> The pledge is a reminder that at the University of Maryland students carry primary responsibility for academic integrity because the meaningfulness of their degrees depends on it. Faculty are urged to emphasize the importance of academic honesty and of the pledge as its symbol.
+> The University's Code of Academic Integrity is a nationally recognized honor code, administered by a Student Honor Council. Any of the following acts, when committed by a student, shall constitute academic dishonesty:
+
+ * Cheating: fraud, deceit, or dishonesty in any academic course or exercise in an attempt to gain an unfair advantage and/or intentionally using or attempting to use unauthorized materials, information, or study aids in any academic course or exercise.
+ 
+ * Fabrication: intentional and unauthorized falsification or invention of any information or citation in any academic course or exercise.
+
+ * Facilitating academic dishonesty: Intentionally or knowingly helping or attempting to help another to violate any provision of the Code of Academic Integrity.
+ 
+ * Plagiarism: Intentionally or knowingly representing the words or ideas of another as one's own in any academic course or exercise.
+ 
+> If it is determined that an act of academic dishonesty has occurred, a grade of "XF" is considered the normal sanction for undergraduate students. The grade of "XF" is noted on the academic transcript as failure due to academic dishonesty. Lesser or more severe sanctions may be imposed when there are circumstances to warrant such consideration. Suspension or expulsion from the University may be imposed even for a first offense.
 
 Academic integrity is a very serious issue. Any assignment, project or exam you complete in this course is expected to be your own work. If you are allowed to discuss the details of or work together on an assignment, this will be made explicit. Otherwise, you are expected to complete the work yourself. *Plagarism is not just the outright copying of content*. If you paraphrase someone else's thoughts, words, or ideas and you don't cite your source, this constitues plagraism. It is always much better to turn in an incorrect or incomplete assignment representing your own efforts than to attempt to pass off the work of another as your own. **If you are academically dishonest in this course, you will recieve a grade of XF, and you will be reported to the university's Office of Student Conduct**.
-
-Again, the relevant exceprt from the [graduate catalog](https://academiccatalog.umd.edu/graduate/policies/academic-record/#text):
-
-> Students who are found to have falsified, fabricated, or plagiarized in any context, such as course work, laboratory research, archival research, or thesis / dissertation writing--will be referred to the [Office of Student Conduct](https://www.president.umd.edu/sites/president.umd.edu/files/documents/policies/III-100A.pdf). The Office of Student Conduct has some discretion in determining penalties for violations of the University's standards of academic integrity, but the normal sanction for a graduate student found responsible for a violation of academic integrity will be dismissal (suspension or expulsion) from the University.
-> To review the whole policy on academic integrity, see the [University of Maryland Code of Academic Integrity](https://www.president.umd.edu/sites/president.umd.edu/files/documents/policies/III-100A.pdf). The Code was amended on November 7, 2014.
 
 ## Academic Accommodations:
 
