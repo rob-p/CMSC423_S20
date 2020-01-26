@@ -14,7 +14,7 @@ Here you'll find an overview of the course — the material I expect we'll cover
 
 * Course Website : [https://rob-p.github.io/CMSC423_S20/](https://rob-p.github.io/CMSC423_S20/)
 * Instructor : Rob Patro
-* Office hours: 
+* Instructor office hours: Tuesdays 1-2PM in IRB 3220, or by appointment
 * Class location: IRB 0318
 * Class days/time: Tuesdays/Thursdays 11:00 AM — 12:15 PM
 
