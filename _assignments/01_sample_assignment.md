@@ -6,5 +6,6 @@ title: 'Read Suffix Arrays Paper'
 #attachment: /static_files/assignments/asg.zip
 #solutions: /static_files/assignments/asg_solutions.pdf
 due: 2019-09-05
+published: false
 ---
 [Suffix Arrays: A New Method for On-Line String Searches](http://www.cs.utsa.edu/~jruan/teaching/CS6293_fall_2010/readings/p319-manber.pdf)
