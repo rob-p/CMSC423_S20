@@ -20,6 +20,16 @@ Here you'll find an overview of the course — the material I expect we'll cover
 
 ## Course Content
 
+**Links**: 
+
+ * In general, _this website_ is the place to look for course content and course news.  Any content that is private / restricted (e.g. grades) will be made available on the ELMS page for this course.  Additionally, you should register on both Project Rosalind and Piazza for this course (links below).
+
+ * Assignment announcements and deadlines will be posted on the [ELMS page for this course](https://umd.instructure.com/courses/1275340), and grading information will be made available there.
+ 
+ * The small programming assignments will be turned in via Project Rosalind.  Please use [this link](http://rosalind.info/classes/enroll/a7d62f0502/) to enroll in this session of the course on Rosalind.
+
+ * The course also has a Piazza page for discussions.  Please register for this course on Piazza [here](http://www.piazza.com/umd/spring2020/cmsc423).
+
 **Textbook(s)**: The book for this course is [Bioinformatics Algorithms: An Active Learning Approach](https://secure.mybookorders.com/Orderpage/1402). [The website for the book](http://bioinformaticsalgorithms.com/index.htm) contains other helpful information as well. Further resources, where relevant, will be provided via links on the course website accompanying the slides or lecture notes. However, as this is an _upper-level_ course, and you should _absolutely_ seek out other sources explaining these topics from different angles, using different notations and examples, etc.  Of course, you should also _absolutely_ reach out to the TAs and me if you are having trouble understanding a topic in the course and have been unable to become comfortable with it from the lecture slides and other sources.  In addition
 to the required text, here are some (non-required) textbooks that I personally recommend as references for different topics:
 
