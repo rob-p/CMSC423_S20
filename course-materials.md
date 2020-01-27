@@ -111,8 +111,8 @@ Assignments will be posted and collected [via ELMS](https://umd.instructure.com/
 
 ## Course Policies
 
-**Coursework and grading**: The coursework will consist of XXX, a midterm exam and a final exam. 
-The breakdown of weights for these different assignments will be as follows:
+**Coursework and grading**: The coursework will consist of small programming assignments, a couple of larger
+projects, a midterm exam and a final exam. The breakdown of weights for these different assignments will be as follows:
 
 - Homeworks (small programming assignments) — 15%
 - Projects - 25%
