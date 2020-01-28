@@ -6,7 +6,7 @@ permalink: /course-materials/
 
 <!--{% include image.html url="/_images/cover2.jpg" width=175 align="right" %}-->
 
-# Syllabus for CMSC423: Algorithms, Data Structures and Inference for High-throughput Genomics
+# Syllabus for CMSC423: Bioinformatics Algorithms, Databases, and Tools
 
 Here you'll find an overview of the course — the material I expect we'll cover, the breakdown of course assignments and credit, and the course policies.
 
