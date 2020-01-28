@@ -17,9 +17,10 @@ Here you'll find an overview of the course — the material I expect we'll cover
 * Instructor office hours: Tuesdays 1-2PM in IRB 3220, or by appointment
 * Class location: IRB 0318
 * Class days/time: Tuesdays/Thursdays 11:00 AM — 12:15 PM
-* TAs
-  - Yuelin Liu
-  - Hadi Yami
+* TAs : 
+  - Yuelin Liu (yuelin@cs.umd.edu)
+    - Office hours : Tues. 4-5PM across from IRB 5138
+  - Hadi Yami (hadiyami@cs.umd.edu) Office hours to be posted later this week
   
 ## Course Content
 
@@ -70,47 +71,63 @@ The main objective of this course will be to provide an understanding of some of
 The following is a planned schedule of the material we will cover in the course, as well as when we will cover it.  The mapping between content and dates below _is subject to change_ depending on how quickly we move.  The current schedule is  optimistic, and I would like to cover all of this material.  However, it's much more important that the class understand the material we cover than that we get to all of the topics I'd like to discuss.  Thus, the time we spend on certain topics and the precise list of topics we cover is subject to change throughout the semester depending on our pace.
 
 - Week of Jan 27.
-    - Course introduction, logistics & goals
-    - Basic Biology & Biotechnology (e.g. short and long-read sequencing)
+  - Course introduction, logistics & goals
+  - Overview of bioinformatics, basic biology & biotechnology
 
-- Week of Feb 3.
-  - February 7 : Last day to drop without a `W`
+- Week of Feb 3. (P&C Chapter 1)
+  - Exact string matching
+  - KMP & Z algorithms
+  - **Note** : February 7 : Last day to drop without a `W`
   
-- Week of Feb 10.
-
-- Week of Feb 17.
-
+- Week of Feb 10. (P&C Chapter 9)
+  - Text indexing for rapid search (overview & Suffix Trie)
+  
+- Week of Feb 17. 
+  - Suffix Arrays
+  - BWT and FM-index
+  
 - Week of Feb 24.
   - Feb 25. : Midterm 1 (in class)
+  - Feb 27. : Prof. Patro out of town
   
-- Week of March 2.
+- Week of March 2. (P&C Chapter 5)
+  - Sequence alignment & dynamic programming
   - March 5 : Prof. Patro out of town
 
 - Week of March 9.
-
-- Week of March 16
-  - March 17 : **Spring Break, no classes**
-  - March 19 : **Spring Break, no classes**
+  - Sequence alignment continued (local and semi-local variants) & linear space
   
-- Week of March 23
+- Week of March 16 **Spring Break, no classes**
 
-- Week of March 30
+- Week of March 23 (P&C Chapter 2)
+  - Motif finding & Gibbs sampling
+  - Probabilistic sequence modeling 
 
+- Week of March 30 (P&C Chapter 8)
+  - Clustering (hierarchical & k-means)
+  
 - Week of April 6
   - April 9 : Midterm 2 (in class)
   - April 11 : Last day to drop with a `W`
  
-- Week of April 13
-
-- Week of April 20
-
-- Week of April 27
-
-- Week of May 4
-    - May 7 : Prof. Patro out of town (_tentative_, will verify)
+- Week of April 13 
+  - RNA-sequencing and estimating gene expression
+  - More probabilistic modeling (sufficient statistics)
+  
+- Week of April 20 (P&C Chapter 7)
+  - Phylogenomics, parsimony (small) and maximum likelihood 
+  
+- Week of April 27 (P&C Chapter 3)
+  - Phylogenomics continued
+  - Genome assembly & the de Bruijn graph
+  
+- Week of May 4 
+  - Genome assembly and the de Bruijn graph continued
+  - May 7 : Prof. Patro out of town (_tentative_, will verify)
 
 - Week of May 11 
-    - May 12 : Last day of class
+  - Wrap-up and current research topics in computational biology
+  - May 12 : Last day of class
 
 - May 14 : Final Exam (8:00-10:00am) **Note: University assigned time different than class time**
 
