@@ -17,7 +17,10 @@ Here you'll find an overview of the course — the material I expect we'll cover
 * Instructor office hours: Tuesdays 1-2PM in IRB 3220, or by appointment
 * Class location: IRB 0318
 * Class days/time: Tuesdays/Thursdays 11:00 AM — 12:15 PM
-
+* TAs
+  - Yuelin Liu
+  - Hadi Yami
+  
 ## Course Content
 
 **Links**: 
