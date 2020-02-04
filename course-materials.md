@@ -21,6 +21,7 @@ Here you'll find an overview of the course — the material I expect we'll cover
   - Yuelin Liu (yuelin@cs.umd.edu)
     - Office hours : Tues. 4-5PM across from IRB 5138
   - Hadi Yami (hadiyami@cs.umd.edu) Office hours to be posted later this week
+    - Office hours : Wed. 4-5PM across from IRB 5138
   
 ## Course Content
 
