@@ -79,12 +79,12 @@ The index command should be executed as follows:
 $ fmmap index reference.fa ref_index
 ~~~
 
-This will index `reference.fa` and write the output index, with the components described above, to `output_index`.  **While you are free to implement the indexing procedure however you want**, I would recommend building the suffix array first, then using that to read off the BWT(S), from which you can derive the first column of BWM(S), and the occ table for all characters in linear time.
+This will index `reference.fa` and write the output index, with the components described above, to `ref_index`.  **While you are free to implement the indexing procedure however you want**, I would recommend building the suffix array first, then using that to read off the BWT(S), from which you can derive the first column of BWM(S), and the occ table for all characters in linear time.
 
 The second command that `fmmap` should implement is a command called `align`.  This command should be executed as such:
 
 ~~~bash
-$ fmmap align ref_index reads.fq alignments.sam
+$ fmmap align ref_index reads.fa alignments.sam
 ~~~
 
 This command takes 3 arguments, the first is the index built by `fmmap index`, the second is a FASTA format file 
