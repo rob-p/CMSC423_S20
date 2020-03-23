@@ -2,7 +2,7 @@
 type: assignment
 date: 2020-03-07
 title: 'Project 1: Variant detection using the FM-index'
-due: 2020-03-30
+due: 2020-04-06
 published: true
 ---
 
