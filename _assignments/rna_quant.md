@@ -10,6 +10,6 @@ published: true
 **Posted: April 15, 2020**  
 **Last updated: April 15, 2020**  
 
-Hoping I can render some math here: $\theta$.
+Hoping I can render some math here: \\(\theta\\)
 
 
