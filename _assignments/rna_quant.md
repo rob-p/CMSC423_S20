@@ -76,7 +76,7 @@ The first line of the alignment block gives the number of alignments for this re
 
 ### Your tool ###
 
-You should implement a tool named `squant` (for simple quantifier).  The `squant` tool takes *2* mandatory options and *1* optional flag.  The first option is the path to a `.cs423` format alignment file, and it should be accepted via the `--aln` option. The second is the path to the file where the output should be written and it should be accepted via the `--out` option.  For example:
+You should implement a tool named `squant` (for simple quantifier).  The `squant` tool takes *2* mandatory options and *1* optional flag.  The first option is the path to a `.cs423` format alignment file, and it should be accepted via the `--in` option. The second is the path to the file where the output should be written and it should be accepted via the `--out` option.  For example:
 
 ~~~bash
 $ squant --in alignments.cs423 --out quants.tsv
