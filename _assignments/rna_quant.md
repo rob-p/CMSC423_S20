@@ -141,13 +141,11 @@ This leads to a simple rule for determining \\(\Pr( \ell(f_i) \mid z_{ij} = 1, d
 
 For a given alignment \\(a_j(f_i)\\), let \\(p_j(f_i)\\) be the position where the read alignment for read i begins on transcript j.  Then:
 
-\\[
-  \Pr( \ell(f_i) \mid z_{ij} = 1) = 
+\\[\Pr( \ell(f_i) \mid z_{ij} = 1) = 
   \begin{cases}
   D(\ell(t_j) - p_j(f_i)) & \text{if} \text{ ori}(f_j) \text{ is `f`} \\
   D(p_j(f_i) + 100 & \text{if} \text{ ori}(f_j) \text{ is `rc`}
-  \end{cases}
-\\]
+  \end{cases}\\]
 
 Explaining this formula a bit, the first condition occurs when the read aligns in the forward orientation.  This is because, if the alignment for this read (the observed read) is on the forward strand, the situation is as below:
 
