@@ -126,26 +126,29 @@ We observe, for every alignment, one end of a paired end read.  In reality, the 
 
 Assume that under a given alignment \\(a_j(f_i)\\) of fragment i to transcript j, the fragment aligns to the transcript in the forward orientation at position 500.  Further, assume that transcript \\(t_j\\) has a length of 1000 nucleotides.  What possible lengths could fragment i have had?  Well, it could have had any length from 0 to 500. Why, is the maximum possible length 500?  Because if the fragment were of length > 500, then the other end would be positioned beyond nucleotide 1000 of this transcript, but this transcript is only 1000 nucleotides long.  This means we could have had a fragment of length 0, **or** 1, **or**, 2, **or**, ..., **or** 500.  Recalling the rules for the probability of events A **or** B **or** C, etc. we can infer that the probability we are interested in is:
 
-\\[\Pr(\ell(f_i) = 0) \text{ or } \Pr(\ell(f_i) = 1) \text{ or } \cdots \text{ or } \Pr(\ell(f_i) = 500) \\\\
-= \Pr(\ell(f_i) = 0) + \Pr(\ell(f_i) = 1) + \cdots \text{ or } \Pr(\ell(f_i) = 500) \\\\
+$$
+\Pr(\ell(f_i) = 0) \text{ or } \Pr(\ell(f_i) = 1) \text{ or } \cdots \text{ or } \Pr(\ell(f_i) = 500) \\
+= \Pr(\ell(f_i) = 0) + \Pr(\ell(f_i) = 1) + \cdots \text{ or } \Pr(\ell(f_i) = 500) \\
 = \sum_{k=0}^{500} \Pr(\ell(f_i) = k) = \sum_{k=0}^{500} d(k)
-\\]
+$$
 
 Another way to write this, if we simply take \\(D\\) to be the cumulative distribution function (CDF) of \\(d\\) is as
 
-\\[
+$$
  \Pr(\ell(f_i) \le 500) = \sum_{k=0}^{500} d(k) = D(k)
-\\]
+$$
 
 This leads to a simple rule for determining \\(\Pr( \ell(f_i) \mid z_{ij} = 1, d)\\).
 
 For a given alignment \\(a_j(f_i)\\), let \\(p_j(f_i)\\) be the position where the read alignment for read i begins on transcript j.  Then:
 
-\\[\Pr( \ell(f_i) \mid z_{ij} = 1) = 
+$$
+\Pr( \ell(f_i) \mid z_{ij} = 1) = 
   \begin{cases}
   D(\ell(t_j) - p_j(f_i)) & \text{if} \text{ ori}(f_j) \text{ is f} \\\\
   D(p_j(f_i) + 100 & \text{if} \text{ ori}(f_j) \text{ is rc}
-  \end{cases}\\]
+  \end{cases}
+$$
 
 Explaining this formula a bit, the first condition occurs when the read aligns in the forward orientation.  This is because, if the alignment for this read (the observed read) is on the forward strand, the situation is as below:
 
