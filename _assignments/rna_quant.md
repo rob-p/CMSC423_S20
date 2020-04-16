@@ -6,7 +6,7 @@ due: 2020-04-30
 published: true
 ---
 
-**Due: Tues April 30, 2020 (11:59 PM)**  
+**Due: Thurs April 30, 2020 (11:59 PM)**  
 **Posted: April 14, 2020 (11:35 PM)**  
 **Last updated: April 14, 2020 (11:35 PM)**  
 
