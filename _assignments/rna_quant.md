@@ -56,10 +56,10 @@ and an alignment block is of the form
 
 ```
 number_of_alignments_for_read:int
-aln1_txp:string <tab> aln1_ori:string <tab> aln1_pos:int <tab> aln1_alignment_prob:int
-aln2_txp:string <tab> aln2_ori:string <tab> aln2_pos:int <tab> aln2_alignment_prob:int
+aln1_txp:string <tab> aln1_ori:string <tab> aln1_pos:int <tab> aln1_alignment_prob:double
+aln2_txp:string <tab> aln2_ori:string <tab> aln2_pos:int <tab> aln2_alignment_prob:double
 ...
-alnk_txp:string <tab> alnk_ori:string <tab> alnk_pos:int <tab> alnk_alignment_prob:int
+alnk_txp:string <tab> alnk_ori:string <tab> alnk_pos:int <tab> alnk_alignment_prob:double
 ```
 
 That is, the file has a header that lists each transcript's name and length, followed by an easy-to-parse block that encodes the alignments for each read.  For a given read, it can align to any number of places.
@@ -88,9 +88,9 @@ Regardless of whether or no `--eqc` is provided, your program should output the 
 
 ```
 name <tab> effective_length <tab> est_frag
-name_1:string <tab> length_1:float <tab> est_frag_1
+name_1:string <tab> length_1:double <tab> est_frag_1:double
 ...
-name_m:string <tab> length_m:float <tab> est_frag_m
+name_m:string <tab> length_m:double <tab> est_frag_m:double
 ```
 
 That is, the output is a simple 3-column TSV containing the transcript name, the effective length (see below) and the estimated number of reads arising from this transcript.
